@@ -1,0 +1,18 @@
+[project]
+name = "goit-ds-hw-01"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Dimonchik1906",email = "85458459+Dimonchik1906@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = "3.13.2"
+dependencies = [
+    "datetime (>=5.5,<6.0)",
+    "pathlib (>=1.0.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
