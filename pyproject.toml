@@ -8,7 +8,7 @@ authors = [
 rreadme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.13.2"
 
 [build-system]
 requires = ["poetry-core"]
