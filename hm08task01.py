@@ -192,11 +192,11 @@ def show_birthday(args, book):
         return str(record.birthday)
     return "Birthday not found for this contact."
 
-def save_data(book, filename="addressbook.pkl"):
+def save_data(book, filename="/app/data/addressbook.pkl"):
     with open(filename, "wb") as f:
         pickle.dump(book, f)
 
-def load_data(filename="addressbook.pkl"):
+def load_data(filename="/app/data/addressbook.pkl"):
     try:
         with open(filename, "rb") as f:
             return pickle.load(f)
@@ -214,6 +214,7 @@ def main(): #Функція обробки команд
         if command in ["close", "exit"]:
             print("Good bye!")
             save_data(book)
+            print("save OK")
             break
 
         elif command == "hello":
