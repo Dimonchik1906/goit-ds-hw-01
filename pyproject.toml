@@ -16,3 +16,9 @@ dependencies = [
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+pip~=25.0
+pathlib~=1.0.1
+DateTime~=5.5
+wheel~=0.45.1
+filelock~=3.17.0
